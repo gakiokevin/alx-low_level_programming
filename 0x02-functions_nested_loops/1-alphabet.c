@@ -1,15 +1,16 @@
 #include	"main.h"
+#include	<stdio.h>
 int	main(void)
 {
 	print_alphabet();
 }
 void print_alphabet(void)
 {
-	char	z;
+	char	c;
 
-	for	(z	=	'a';	z	<=	'z';	z++)
+	for	(c	=	'a';	c	<=	'z';	c++)
 	{
-		putchar(z);
+		putchar(c);
 	}
 	putchar('\n');
 }
