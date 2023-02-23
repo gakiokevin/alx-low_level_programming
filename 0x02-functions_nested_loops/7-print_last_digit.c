@@ -6,11 +6,12 @@
  *
  */
 
-int print_last_digit(int)
+int print_last_digit(int	number)
 {
 	int	last_digit;
 
-	while	(last_digit)
-		last_digit	/=	10;
+	last_digit	=	number	/	10;
+
+
 	return	(last_digit);
 }
