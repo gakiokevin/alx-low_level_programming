@@ -1,10 +1,13 @@
 #include	"main.h"
 /**
- * mul		-	a	function	that	multiply	variable	a	and	b.
+ * mul		-	a	function	that	multiply	'a'	and	'b'.
  *
  * Return:	a	+	b.
  */
 int mul(int a, int b)
 {
-	return	(a	+	b);
+	int	res;
+
+	res	=	a	+	b;
+	return	(res);
 }
