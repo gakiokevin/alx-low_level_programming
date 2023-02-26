@@ -4,17 +4,14 @@
  *
  *Return:	void
  */
-
 void print_numbers(void)
 {
-	int	i	=	48;
+	int c = 48;
 
-	while	(i	<	58)
+	while (c < 58)
 	{
-		_putchar(i);
-
-		i++;
+		_putchar(c);
+		c++;
 	}
 	_putchar('\n');
-
 }
