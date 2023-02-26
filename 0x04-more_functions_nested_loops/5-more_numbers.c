@@ -1,21 +1,29 @@
-#include	"main.h"
+#include "main.h"
+
 /**
- * more_numbers	-	prints	0	to	14	10	times
+ * more_numbers - prints numbers from 0 to 14 ten times
  *
- * @i:	the	loop	to	count	10	lines
- * @j:	loopto	count	from	0	to	14
+ *
+ * Return: void
  */
 void more_numbers(void)
 {
-	int	i,	j;
+	int i = 0, a, b;
 
-	for	(i	=	0;	i	<	10;	i++)
+	while (i < 10)
 	{
-
-		for	(j	=	0;	j	<=	14;	j++)
+		a = 0;
+		while (a < 15)
 		{
-			_putchar(j);
+			b = a;
+			if (a > 9)
+				b = a / 10;
+			_putchar('0' + b);
+			if (a > 9)
+				_putchar('0' + a % 10);
+			a++;
 		}
 		_putchar('\n');
+		i++;
 	}
 }
