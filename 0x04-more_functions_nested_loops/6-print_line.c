@@ -1,4 +1,4 @@
-#include "main.h"
+#include "home.h"
 
 /**
  * print_line - prints line using "_" character of n length
