@@ -5,5 +5,5 @@ int y;
 
 y = *s;
 
-strlen(y);
+_strlen(y);
 }
